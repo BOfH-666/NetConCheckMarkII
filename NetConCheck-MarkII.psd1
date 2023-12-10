@@ -2,7 +2,7 @@
 NetConCheck-MarkII.psd1
 #>
 @{
-    LogPath = '\\AZRFS0002\logs\NetConCheckMarkII'
+    LogPath = '\\<server>\<share>\NetConCheckMarkII'
     PostContent = '</p> </div>'
     HWPreContent = '<div class="flexbox-item Computer"> <h1>Computer</h1> <p>'
     OSPreContent = '<div class="flexbox-item OperatingSystem"> <h1>Operating System</h1> <p>'
