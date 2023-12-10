@@ -1,0 +1,82 @@
+﻿
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 20px;
+}
+
+.flexbox-item {
+    color: black;
+    font-family: 'Consolas', Courier, monospace;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: center;
+    align-content: center;
+    background-color: lightgrey;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px  grey;
+    padding: 0 .75em 0;
+    min-width:  270px;
+    max-width: 700px;
+    flex-grow: 1;
+}
+
+.Computer {
+    border-color: darkblue;
+}
+
+.OperatingSystem {
+    border-color: red;
+}
+
+.NIC {
+    border-color: orange;
+    max-width: 900px;
+}
+
+.VPN {
+    border-color: darkgreen;
+}
+
+.User {
+    border-color:magenta;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: .5em;
+    overflow: hidden;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid dimgrey;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0.3em;
+    word-wrap: break-word;
+}
+
+td {
+    max-width: 300px;
+    min-width: 100px;
+}
+
+tr:nth-child(odd) {
+    background-color:lightgrey;
+}
+tr:nth-child(even) {
+    background-color:whitesmoke;
+}
